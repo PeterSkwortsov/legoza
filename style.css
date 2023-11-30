@@ -1,6 +1,4 @@
 
-
-
 body {
     background-color: #93D3FF;
     font-family: 'Jost', sans-serif;
@@ -494,7 +492,7 @@ footer h6 {
   }
 .foto-2 {
     grid-area: foto2;
-    background-image: url(./img/nebo2jpeg.jpeg);
+    background-image: url(img/nebo2jpeg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -511,7 +509,7 @@ footer h6 {
   }
 .foto-3 {
     grid-area: foto3;
-    background-image: url(./img/nebo3jpeg.jpeg);
+    background-image: url(img/nebo3jpeg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -853,5 +851,6 @@ footer h6 {
     margin: auto;
     }
 }
+
 
 
