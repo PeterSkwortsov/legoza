@@ -534,12 +534,30 @@ footer h6 {
     text-align: center;
   }
 
-  @media (max-width: 1550px) {
+  @media (min-width: 1550px) {
+
+.new-legoza {
+    height: 889px;
+}
+    .new-legoza h6 {
+        margin-top: 21px;
+    }
     .carousel {
         width: 70%;
     }
 }
+@media (min-width: 1052px) and (max-width: 1550px) {
+   
+    .new-legoza {
+        height: 889px;
+    }
+        .new-legoza h6 {
+            margin-top: 21px;
+        }
+}
 @media (max-width: 1052px) {
+
+
     .carousel {
         width: 80%;
     }
@@ -547,6 +565,9 @@ footer h6 {
         max-width: 750px;
         max-height: 935px;
         padding: 20px 20px;
+    }
+    .new-legoza h6 {
+        margin-top: -83px;
     }
     .cards-grid {
 	grid-template-columns: repeat(2, minmax(100px, 350px));
@@ -758,7 +779,7 @@ footer h6 {
 }
 @media (max-width: 1052px) {
     
-    .ribca {
+    /* .ribca {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -766,7 +787,7 @@ footer h6 {
         gap: 50px;
         padding-top: 50px;
         padding-bottom: 50px;
-    }
+    } */
     .ribca img {
         width: 45%;
     }
@@ -879,8 +900,5 @@ footer h6 {
     margin: auto;
     }
 }
-
-
-
 
 
